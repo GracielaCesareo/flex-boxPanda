@@ -1,14 +1,22 @@
 //Funcion para ocultar imagenes
-var imagenes = document.getElementsByClassName ("imgContainer");
+var imagenes = document.getElementsByClassName ("close");
 
 for (var i = 0; i < imagenes.length; i++) {
   imagenes[i].addEventListener("click",ocultar);
 }
 
 function ocultar() {
-  this.style.display = "none";
+  var contenedor = this.parentElement
+  contenedor.style.display = "none";
 }
 
+var botonRestaurar = document.getElementById('restaurar')
+botonRestaurar.addEventListener("click",restaurar);
+function restaurar() {
+    for (var i = 0; i < imagenes.length; i++) {
+      imagenes[i].parentElement.style.display = "inline-block";
+    }
+}
 
 //Funcion para ocultar/mostrar texto
 var txtIzq = document.getElementById('izquierda');
