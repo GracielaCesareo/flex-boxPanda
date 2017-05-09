@@ -1,0 +1,63 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+header {
+  display: flex;
+}
+
+nav {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
+  padding: 40px;
+}
+
+a:hover {
+  color:green;
+  text-decoration: underline;
+}
+
+.menu {
+  width: 640px;
+}
+
+.images {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+img {
+  align-items: center;
+  border-radius: 50%;
+  border: 3px solid gray;
+}
+
+.botones {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 40px;
+}
+
+.seccion {
+  width: 30%;
+  padding: 5px;
+  align-items: center;
+}
