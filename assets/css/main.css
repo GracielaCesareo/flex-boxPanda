@@ -14,7 +14,7 @@ header {
   width: 100%;
   display: flex;
   justify-content: space-around;
-  background-color: #568d07;
+  background-color: #0c3751;
 }
 
 nav {
@@ -51,6 +51,7 @@ img {
   border-radius: 50%;
   border: 3px solid gray;
 }
+
 .close {
   position: relative;
   top: -225px;
@@ -58,6 +59,7 @@ img {
   color: gray;
   font-size: 40px;
   font-weight: bold;
+  cursor: pointer;
 }
 
 .botones {
