@@ -11,7 +11,10 @@ body {
 }
 
 header {
+  width: 100%;
   display: flex;
+  justify-content: space-around;
+  background-color: #568d07;
 }
 
 nav {
@@ -23,11 +26,12 @@ nav {
 
 a {
   text-decoration: none;
-  padding: 40px;
+  color:#FFF;
+  padding: 30px;
 }
 
 a:hover {
-  color:green;
+  color: #9cd290;
   text-decoration: underline;
 }
 
@@ -40,12 +44,20 @@ a:hover {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  padding-top: 30px;
 }
 
 img {
-  align-items: center;
   border-radius: 50%;
   border: 3px solid gray;
+}
+.close {
+  position: relative;
+  top: -225px;
+  right: 45px;
+  color: gray;
+  font-size: 40px;
+  font-weight: bold;
 }
 
 .botones {
@@ -56,8 +68,36 @@ img {
   padding: 40px;
 }
 
-.seccion {
+.boton {
   width: 30%;
-  padding: 5px;
+  padding: 8px;
+  font-family: 'Quicksand', sans-serif;
+  color: #FFF;
+  background-color: #568d07 ;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.texto {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
   align-items: center;
+  margin-bottom: 50px;
+}
+
+p {
+  width: 39.999%;
+}
+
+footer {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: #0c3751;
+  color: #FFF;
 }
